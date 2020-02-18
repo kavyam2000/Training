@@ -1,0 +1,6 @@
+#!/bin/bash
+while  read line
+do
+        name="$(echo "$line" |cut -d ' ' -f1 )"
+        sudo adduser  $name --disabled-password
+done < users_list.txt

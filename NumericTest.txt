@@ -1,0 +1,30 @@
+#bin/bash
+#number is positive zero or Negative
+echo -e "enter a number:\c"
+read number
+if [ "$number" -lt "0" ]
+then
+        echo "negative"
+elif [ "$number" -eq "0" ]
+then
+        echo "zero"
+else
+        echo positive
+fi
+
+Output
+ubuntu@ip-172-31-43-209:~$ bash numerictest.sh test
+enter a number:6
+positive
+ubuntu@ip-172-31-43-209:~$ bash numerictest.sh test
+enter a number:-10
+negative
+ubuntu@ip-172-31-43-209:~$ bash numerictest.sh test
+enter a number:
+numerictest.sh: line 5: [: : integer expression expected
+numerictest.sh: line 8: [: : integer expression expected
+positive
+ubuntu@ip-172-31-43-209:~$ bash numerictest.sh test
+enter a number:0
+zero
+ubuntu@ip-172-31-43-209:~$

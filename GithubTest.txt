@@ -1,0 +1,33 @@
+created a repository DemoTest
+opened putty 
+went gittest folder 
+git clone https://github.com/kavyam2000/DemoTest.git
+cd DemoTest
+vi Testfile.txt
+git status
+git add Testfile.txt
+git commit -m "New file added from ubuntu"
+git push
+Ener username/password 
+Successfully pushed the file
+
+Add new file from browser under DemoTest
+git status doesn't show new file
+rm Testfile.txt
+git add 
+git commit -m "Deleted file from ubuntu"
+git push
+Error
+
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/kavyam2000/DemoTest.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+
+git pull to get the new file from repository
+git push
+Deleted the file in github
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+git checkout to change branches

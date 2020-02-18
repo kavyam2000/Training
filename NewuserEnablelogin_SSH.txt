@@ -1,0 +1,13 @@
+Create new user
+   sudo adduser kavi--disabled-password
+   sudo su kavi
+   kavi@ip/home/ubuntu
+   cd 
+   kavi@ip:~$ mkdir .ssh
+   chmod 700 .ssh
+   exit
+   cd .ssh
+   sudo cp authorized_keys  ../../kavi/.ssh/
+   sudo su kavi
+   Dhanunjay helped me here.
+   chmod 600 .ssh/authorized_keys

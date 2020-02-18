@@ -1,0 +1,23 @@
+sudo apt update
+sudo apt install awscli
+aws --version
+aws-cli/1.14.44 Python/3.6.9 Linux/4.15.0-1057-aws botocore/1.8.48
+aws ec2 describe-regions : describes all the regions in AWS UI
+AWS configure
+to get acces key- got ot my credentials and create/click on Access keys.
+ aws ec2 describe-regions
+error below
+HTTPSConnectionPool(host='ec2.exit.amazonaws.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<botocore.awsrequest.AWSHTTPSConnection object at 0x7fa279ad2278>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+ll 
+go to cd .aws
+
+aws cli
+create multiple instances with k1, k2,k3
+check if any of the users have more than 2 instances running in there name
+Delete instanes which are older.
+email to the account owner with this information.
+cron jobs
+
+
+

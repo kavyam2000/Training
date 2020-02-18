@@ -1,0 +1,25 @@
+private/public ip address changes between start and stop of EC2 instnace
+Public 3.16.165.46
+       18.219.41.38
+Private IP 172.31.43.209
+        172.31.43.209
+
+
+#!/bin/bash
+touch /tmp/testfile0
+sudo apt update -y
+touch /tmp/testfile1
+sudo apt install apache2 -y
+sudo apt install lynx -y
+sudo ufw allow 'Apache'
+git clone https://github.com/kavyam2000/IndexHtml.git
+cp IndexHtml/Testhtml.html //var/www/html/
+touch /tmp/file2.txt
+cp indexhtml/index.html /tmp/index.html
+
+
+$ sudo yum install epel-release
+$ sudo yum update
+$ sudo yum install nginx
+$ sudo nginx -v
+nginx version: nginx/1.6.3

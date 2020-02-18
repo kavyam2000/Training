@@ -1,0 +1,54 @@
+Udemy Linux
+Section 3 : day 2
+directory structure - 4-5hrs
+Name of the video, exact time, Question
+
+Advantage Cloud- Closed instances if you want to close 
+Touch to create a file in Ubuntu
+$ touch xyz.txt - to create and modify
+$ vi is also an editor to create files.
+> - overtwritten
+>> - append if filex exists else create file
+cat - check the content on teh file 
+diff- to check file difference
+apt- pacakge manager
+Udemy
+create instance
+create image
+ingenix webserver installed.
+Jenkins job
+
+
+sudo apt update -y
+touch /tmp/file1
+sudo apt install apache2 -y
+sudo apt install lynx -y
+sudo ufw allow 'Apache'
+git clone https://github.com/munireddy/indexhtml.git
+cp indexhtml/index.html //var/www/html/
+touch /tmp/file2.txt
+cp indexhtml/index.html /tmp/index.html
+
+ll -list of all the files in the folder
+add key in putty Pageant- Can add multiple keys here 
+
+
+Chenna Korvi  8:41 PM
+TO do for tomorrow.
+1. Make sure you are able to access the slack cloudzenix.slack.com and able to view the messages in devops-training channel. We will use this as the primary mechanism for communication.
+2. Make sure to follow the recordings(intro and day1 session) in the below link. You need to use the email address that you gave us and you will request an access code to login, make sure to check spam folder for access code.
+https://cloudzenix-my.sharepoint.com/:f:/p/nanda_korvi/Eh9ftJriO-tPtsEU3zIbQSQBRfrimWT-pudAqXwApTg3aA
+2. Setup Unbuntu directly on Windows 10 and/or  with Oracle Virtual box with Ubuntu ISO and/or Amazon AWS account setup/create unbuntu machine.
+3. Practice all the commands discussed in today's session.
+4. Following are the links for self paced trainings that should be completed this week. Please do not share the credentials outside of this group.
+https://app.pluralsight.com/player?course=linux-essentials-lpi&author=david-clinton&name=linux-essentials-lpi-m2&clip=2&mode=live
+https://app.pluralsight.com/library/courses/getting-started-linux-command-line/table-of-contents
+https://app.pluralsight.com/library/courses/getting-started-linux-system-administration/table-of-contents
+user: nandakorvi@gmail.com
+password: Dev$34Ops1
+and
+https://www.udemy.com/course/learn-linux-in-5-days/learn/lecture/1417740?src=sac&kw=linux#overview
+UN : dhanu.maddala@gmail.com
+pwd: dhanunjay51131
+
+
